@@ -1,0 +1,320 @@
+/*general*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*general*/
+
+/*header*/
+
+.navbar{
+    justify-content: space-around;
+}
+.nav-bg{
+    background-color:#0a1127 ;
+}
+
+.nav-link{
+    color: white!important;
+    padding: 0 36px!important;
+}
+
+.left img{
+    width: 120px;
+}
+/*header end*/
+
+/*banner*/
+.banner{
+    background-image:url("img/banner.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    color: white;
+
+}
+
+.Contact-btn{
+    border-radius: 50px;
+    color: white;
+    background-color:#ff6500 ;
+    border: none;
+}
+
+.box{
+    padding-left: 16%;
+    margin-top: 60px;
+}
+
+.box p{
+    padding: 15px 0;
+}
+/*banner end*/
+
+/*block*/
+
+ .bg-orange,.bg-blue{
+    text-align: center;
+    color: white;
+ }
+
+ .bg-orange{
+    background-color: #ff6500;
+ }
+
+ .bg-blue{
+    background-color: #0a1127;
+ }
+
+ .block p{
+    padding: 10px;
+    padding-bottom: 20px;
+ }
+ .block h5{
+    padding-top: 8px;
+ }
+ .block i{
+    font-size:40px ;
+    padding-top: 40px;
+    padding-bottom: 20px;
+ }
+/*block end*/
+
+/*offer*/
+.offer-img{
+    height: 450px;
+}
+
+.logo-wrap{
+    background-color: #ff6500;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+
+.features-row{
+    font-weight: 500;
+}
+
+.features-row p{
+    font-weight:400 ;
+    color: gray;
+    
+}
+.offer-mainrow h4{
+    margin-top: 20px;
+}
+
+.mainrow-p{
+    padding: 20px 0;
+    color: gray;
+}
+
+.mainrow-left{
+    padding-right: 25px;
+}
+/*offer end*/
+/*coueses*/
+.text small{
+    color: gray;
+}
+/*coueses end*/
+
+/*form*/
+#apply{
+    background-image: url(img/request.jpg);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.form-box{
+    width:480px ;
+    margin-left: auto;
+}
+
+#apply input,#apply select,#apply textarea{
+    background: none;
+    color: white;
+    border: none;
+    border-bottom:1px solid white ;
+    padding: 10px 0;
+    width: 100%;
+}
+
+option{
+    color: black;
+}
+#apply ::placeholder{
+
+    color: white;
+}
+
+.req-btn{
+    width: 100%;
+    margin-top: 32px;
+}
+
+#apply input,#apply select,#apply textarea,#apply option:focus{
+    outline:0
+}
+/*form end*/
+
+/*subscription*/
+
+#subscribe{
+background-color: #1b1b1b;
+color: white;
+}
+
+li{
+    list-style-type: none;
+    padding-bottom: 12px;
+    color: gray;
+}
+
+.sub-btn{
+    border-radius: 0!important;
+    border-top-right-radius: 2px !important;
+    border-end-end-radius: 2px !important;
+    height: 35px;
+    padding: 4px 0.8rem;
+    margin-top: 16px;
+}
+
+.form-box2 .form-control{
+    height: 35px;
+    margin-top: 16px;
+}
+
+.line{
+    width: 24px;
+    height: 2px;
+    background-color: red;
+    border-radius: 4px;
+    margin: 12px 0;
+}
+/*subscription end*/
+
+footer{
+    background-color: #111111;
+    color: gray;
+    padding: 12px 0;
+    font-weight: 400;
+}
+
+span{
+    color: #dcac16;
+}
+footer p{
+    margin-bottom: 0;
+}
+/*Media query*/
+@media(max-width:700px){
+    .banner{
+        background-position: right;
+    }
+
+    .box{
+        padding-left: 0;
+    } 
+
+    .box{
+        padding-right: 16px;
+    }
+}
+
+@media(max-width:450px){
+    .banner h1{
+        font-size: 24px;
+    }
+    .banner p{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:450px){
+    .banner h1{
+        font-size: 24px;
+    }
+    .banner p{
+        font-size: 20px;
+    }
+}
+@media(anmax-width:390px){
+    .banner{
+        background-position: 80%;
+        
+    }
+    
+}
+
+@media (max-width:768px){
+
+        .offer-img{
+            display: block;
+            margin: auto;
+            align-content: center;
+        }
+}
+
+@media (max-width:576px){
+
+    .mainrow-left{
+        text-align: center;
+    }
+    .logo-wrap{
+        margin: auto;
+    }
+}
+
+@media (max-width:768px){
+
+    #apply{
+        height: auto;
+    }
+    .form-box{
+       padding-top: 30px;
+       margin: auto;
+       text-align: center;
+    }
+
+    
+}
+
+@media(max-width:560px){
+    .form-box{
+        width: 100%;
+    }
+ 
+}
+
+@media(max-width:560px){
+   .navbar-toggler{
+background-color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.navbar{
+    justify-content: space-between;
+}
+}
+@media(max-width:576px){
+    .features-row{
+        text-align: center;
+    }
+    .logo-wrap{
+        margin:0 auto 20px auto;
+    }
+    
+}
+
